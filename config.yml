@@ -1,0 +1,13 @@
+default:
+  content_con:
+    driver: "ODBC Driver 17 for SQL Server"
+    server: "s101p01-sqlsvr-ees-01.database.windows.net"
+    database: "content"
+    authentication: "ActiveDirectoryInteractive"
+    uid: ""
+  stats_con:
+    driver: "ODBC Driver 17 for SQL Server"
+    server: "s101p01-sqlsvr-ees-01.database.windows.net"
+    database: "statistics"
+    authentication: "ActiveDirectoryInteractive"
+    uid: ""
