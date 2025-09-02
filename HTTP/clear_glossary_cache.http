@@ -1,0 +1,2 @@
+PUT https://admin.explore-education-statistics.service.gov.uk/api/bau/public-cache/glossary HTTP/1.1
+Authorization: Bearer [insert token here]
