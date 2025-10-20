@@ -9,7 +9,9 @@ automated_mailers <- c(
 "pulsetic",
 "statuspage",
 "github.com",
-"postmaster"
+"postmaster",
+"mailer",
+"info"
 )
 
 dfe_teams <- c(
@@ -21,8 +23,9 @@ dfe_teams <- c(
   "Attainment.STATISTICS@education.gov.uk"
 )
 
+automated_responses <- c("out of office", "automatic reply", "unedliverable", "testing")
 
-spam <- c("toiletr", "holidays", "carpark", "parking", "airport", "promotions", "sales")
+spam <- c("toiletr", "holidays", "carpark", "parking", "airport", "promotions", "sales", "hotel", "reservation", "meet beautiful")
 
 
 folder <- "~/../Explore education statistics platforms/Analytics and performance/mailbox-stats/"
@@ -42,7 +45,9 @@ mailbox_cleaned <- mailbox_stats |>
     !grepl(paste(ssu_team, collapse = "|"), From, ignore.case=TRUE),
     !grepl(paste(automated_mailers, collapse = "|"), From, ignore.case=TRUE),
     !grepl(paste(dfe_teams, collapse = "|"), From, ignore.case=TRUE),
-    !grepl(paste(spam, collapse = "|"), From, ignore.case=TRUE)
+    !grepl(paste(spam, collapse = "|"), From, ignore.case=TRUE),
+    !grepl(paste(spam, collapse = "|"), subject, ignore.case=TRUE),
+    !grepl(paste(automated_responses, collapse = "|"), subject, ignore.case=TRUE)
   ) |>
   dplyr::mutate(
     Source = factor(
@@ -51,7 +56,7 @@ mailbox_cleaned <- mailbox_stats |>
       grepl("trust|sch.uk|school|academy|academies", From, ignore.case=TRUE) ~ "School or trust",
       grepl("gov.uk|nhs.uk", From, ignore.case=TRUE) ~ "Other Gov department",
       grepl("ac.uk|.edu", From, ignore.case=TRUE) ~ "Higher education",
-      grepl("bbc.co.uk|theguardian.co.uk|the-times.co.uk|thetimes.co.uk", From, ignore.case=TRUE) ~ "Media",
+      grepl("bbc.co.uk|theguardian.co.uk|the-times.co.uk|thetimes.co.uk|itn.co.uk", From, ignore.case=TRUE) ~ "Media",
       .default = "Other"
     ),
   levels = c("DfE", "Other Gov department", "School or trust", "Higher education", "Media", "Other"))
@@ -74,7 +79,7 @@ mailbox_cleaned |>
   ggplot2::xlab("Date received")  +
   ggplot2::ylab("Weekly e-mails") 
 
-ggplot2::ggsave("images/mailbox-charts/mailbox_timeseries_summary.png")
+ggplot2::ggsave("images/mailbox-charts/mailbox_timeseries_summary.png", width = 12)
 
 # This creates a bar chart of monthly e-mails to the mailbox split by source (i.e. DfE, 
 # Other Gov, Schools etc, HE, Media enquiries...)
@@ -91,3 +96,18 @@ mailbox_cleaned |>
   ggplot2::scale_fill_manual(values = afcharts::af_colour_values |> unname())
 
 ggplot2::ggsave("images/mailbox-charts/mailbox_timeseries_by_source.png", width = 12)
+
+# This creates a bar chart of weekly e-mails to the mailbox
+mailbox_cleaned |>
+  dplyr::filter(grepl("api", subject, ignore.case = TRUE)) |>
+  ggplot2::ggplot(ggplot2::aes(x=received)) +
+  ggplot2::geom_bar(
+    stat="bin", 
+    fill = afcharts::af_colour_values[["dark-blue"]], 
+    bins = 12
+  ) +
+  afcharts::theme_af() +
+  ggplot2::xlab("Date received")  +
+  ggplot2::ylab("Monthly e-mails") 
+
+ggplot2::ggsave("images/mailbox-charts/mailbox_timeseries_api_queries.png", width = 12)
