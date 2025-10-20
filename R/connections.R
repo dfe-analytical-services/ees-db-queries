@@ -1,7 +1,10 @@
+# install.packages(c("config", "DBI", "odbc"))
 
+library(DBI)
 
 content_database <- function(){
   config_content <- config::get("content_con")
+  message("Connected to content database")
   DBI::dbConnect(
     odbc::odbc(),
     Driver = config_content$driver,
