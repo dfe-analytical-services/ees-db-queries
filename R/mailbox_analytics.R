@@ -1,5 +1,7 @@
 library(readr)
 
+days <- 3600*24
+
 ssu_team <- c("explore.statistics", "cameron.race", "richard.bielby", "jen.machin", "menna.zayed", "lauren.snaathorst", "laura.selby")
 automated_mailers <- c(
   "DefenderCloudnoreply@microsoft.com",
@@ -73,7 +75,7 @@ mailbox_cleaned |>
   ggplot2::geom_bar(
     stat="bin", 
     fill = afcharts::af_colour_values[["dark-blue"]], 
-    bins = 52
+    binwidth = 7*days
   ) +
   afcharts::theme_af() +
   ggplot2::xlab("Date received")  +
@@ -87,7 +89,7 @@ mailbox_cleaned |>
   ggplot2::ggplot(ggplot2::aes(x=received, fill = Source)) +
   ggplot2::geom_bar(
     stat="bin", 
-    bins = 12
+    binwidth = 30*days
   ) +
   afcharts::theme_af() +
   ggplot2::xlab("Date received")  +
@@ -104,7 +106,8 @@ mailbox_cleaned |>
   ggplot2::geom_bar(
     stat="bin", 
     fill = afcharts::af_colour_values[["dark-blue"]], 
-    bins = 12
+    binwidth = 30*days,
+    width=1
   ) +
   afcharts::theme_af() +
   ggplot2::xlab("Date received")  +

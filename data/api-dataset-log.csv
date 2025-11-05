@@ -1,0 +1,77 @@
+Version,Release,Status,data_set_title,publication,date,type
+1.0.1,Academic year 2024/43,Published,"Headline In year - Starts, Achievements, Participation by Level, Levy, Age, Region, Provider type",Apprenticeships,08/10/2025,Patch
+1.0.0,Academic year 2024/43,Published,"Headline In year - Starts, Achievements, Participation by Level, Levy, Age, Region, Provider type",Apprenticeships,17/07/2025,New
+1.0.0,Academic year 2024/43,Published,Academies by length of time open,Key stage 2 attainment,11/09/2025,New
+1.0.0,Academic year 2024/43,Published,Attainment by parliamentary constituency,Key stage 2 attainment,11/09/2025,New
+1.0.0,Academic year 2024/43,Published,Attainment by pupil characteristics,Key stage 2 attainment,11/09/2025,New
+1.0.0,Academic year 2024/43,Published,Attainment by pupil residency and pupil characteristics,Key stage 2 attainment,11/09/2025,New
+1.0.0,Academic year 2024/43,Published,Attainment by region and local authority,Key stage 2 attainment,11/09/2025,New
+1.0.0,Academic year 2024/43,Published,Attainment by region and local authority maintained schools,Key stage 2 attainment,11/09/2025,New
+1.0.0,Academic year 2024/43,Published,"Attainment by region, local authority and pupil characteristics",Key stage 2 attainment,11/09/2025,New
+1.0.0,Academic year 2024/43,Published,Attainment by school characteristics,Key stage 2 attainment,11/09/2025,New
+1.0.0,Academic year 2024/43,Published,Attainment by school location and pupil characteristics,Key stage 2 attainment,11/09/2025,New
+1.0.0,Academic year 2024/43,Published,Attainment by school type and pupil characteristics,Key stage 2 attainment,11/09/2025,New
+1.0.0,Academic year 2024/43,Published,"Combinations of attainment at the expected standard in reading, writing and maths (combined)",Key stage 2 attainment,11/09/2025,New
+1.0.0,Academic year 2024/43,Published,Disadvantage gap index,Key stage 2 attainment,11/09/2025,New
+1.0.0,Academic year 2024/43,Published,Distribution of scaled scores,Key stage 2 attainment,11/09/2025,New
+1.0.0,Academic year 2024/34,Published,All state-funded pupil characteristics and geography data,Key stage 4 performance,16/10/2025,New
+1.0.0,Academic year 2024/25,Published,Alternative provision by LA data,Key stage 4 performance,16/10/2025,New
+1.0.0,Academic year 2024/29,Published,Disadvantaged gap data,Key stage 4 performance,16/10/2025,New
+1.0.0,Academic year 2024/32,Published,Disadvantaged gap data,Key stage 4 performance,16/10/2025,New
+1.0.0,Academic year 2024/42,Published,Geography by school types data,Key stage 4 performance,16/10/2025,New
+1.0.0,Academic year 2024/35,Published,Local authority district data,Key stage 4 performance,16/10/2025,New
+1.0.0,Academic year 2024/41,Published,National academies data,Key stage 4 performance,16/10/2025,New
+1.0.0,Academic year 2024/25,Published,National characteristics by school types data,Key stage 4 performance,16/10/2025,New
+1.0.1,Academic year 2024/25,Published,National characteristics by school types data,Key stage 4 performance,16/10/2025,Patch
+1.0.0,Academic year 2024/36,Published,National characteristics summary data,Key stage 4 performance,16/10/2025,New
+1.0.0,Academic year 2024/28,Published,Parliamentary constituency data,Key stage 4 performance,16/10/2025,New
+1.0.0,Academic year 2024/31,Published,Parliamentary constituency data,Key stage 4 performance,16/10/2025,New
+1.0.0,Academic year 2024/38,Published,Performance tables schools data,Key stage 4 performance,16/10/2025,New
+1.0.0,Academic year 2024/43,Published,Rurality and IDACI of region data,Key stage 4 performance,16/10/2025,New
+1.0.0,Academic year 2024/26,Published,Subject entry level data,Key stage 4 performance,16/10/2025,New
+1.0.0,Academic year 2024/30,Published,Subject pupil level characteristic data,Key stage 4 performance,16/10/2025,New
+1.0.0,Academic year 2024/33,Published,Subject pupil level characteristic data,Key stage 4 performance,16/10/2025,New
+1.0.0,Academic year 2024/40,Published,Subject pupil level local authority data,Key stage 4 performance,16/10/2025,New
+1.0.0,Academic year 2024/27,Published,Subject pupil level school type data,Key stage 4 performance,16/10/2025,New
+1.0.0,Academic year 2024/39,Published,Subject school level exam data,Key stage 4 performance,16/10/2025,New
+1.0.0,Academic year 2024/25,Published,Subject timeseries data,Key stage 4 performance,16/10/2025,New
+1.0.1,Academic year 2024/25,Published,Subject timeseries data,Key stage 4 performance,16/10/2025,Patch
+1.0.0,Academic year 2024/37,Published,Subject year of entry data,Key stage 4 performance,16/10/2025,New
+1.0.0,Academic year 2024/43,Published,Phonics screening check attainment by pupil characteristics,Phonics screening check attainment,09/10/2025,New
+1.0.0,Academic year 2024/43,Published,Phonics screening check attainment by region and local authority,Phonics screening check attainment,09/10/2025,New
+1.0.0,Academic year 2024/43,Published,Phonics screening check attainment by school characteristics,Phonics screening check attainment,09/10/2025,New
+1.0.0,Academic year 2024/43,Published,Phonics screening check mark distribution,Phonics screening check attainment,09/10/2025,New
+2.2.0,Week 41 2025,Published,Number of schools submitting data,Pupil attendance in schools,23/10/2025,Update
+2.1.1,Week 39 2025,Published,Number of schools submitting data,Pupil attendance in schools,10/10/2025,Patch
+2.1.0,Week 37 2025,Published,Number of schools submitting data,Pupil attendance in schools,09/10/2025,Update
+2.0.0,Week 37 2025,Published,Number of schools submitting data,Pupil attendance in schools,25/09/2025,Update
+1.11.0,Week 29 2025,Published,Number of schools submitting data,Pupil attendance in schools,07/08/2025,Update
+1.10.0,Week 28 2025,Published,Number of schools submitting data,Pupil attendance in schools,24/07/2025,Update
+1.9.0,Week 26 2025,Published,Number of schools submitting data,Pupil attendance in schools,10/07/2025,Update
+1.8.0,Week 24 2025,Published,Number of schools submitting data,Pupil attendance in schools,26/06/2025,Update
+1.7.0,Week 21 2025,Published,Number of schools submitting data,Pupil attendance in schools,12/06/2025,Update
+1.6.0,Week 20 2025,Published,Number of schools submitting data,Pupil attendance in schools,29/05/2025,Update
+1.5.0,Week 18 2025,Published,Number of schools submitting data,Pupil attendance in schools,15/05/2025,Update
+1.4.0,Week 15 2025,Published,Number of schools submitting data,Pupil attendance in schools,01/05/2025,Update
+1.3.0,Week 14 2025,Published,Number of schools submitting data,Pupil attendance in schools,17/04/2025,Update
+1.2.0,Week 12 2025,Published,Number of schools submitting data,Pupil attendance in schools,03/04/2025,Update
+1.1.0,Week 10 2025,Published,Number of schools submitting data,Pupil attendance in schools,20/03/2025,Update
+1.0.0,Week 7 2025,Published,Number of schools submitting data,Pupil attendance in schools,06/03/2025,New
+2.2.0,Week 41 2025,Published,Reasons for absence and attendance,Pupil attendance in schools,23/10/2025,Update
+2.1.1,Week 39 2025,Published,Reasons for absence and attendance,Pupil attendance in schools,10/10/2025,Patch
+2.1.0,Week 39 2025,Published,Reasons for absence and attendance,Pupil attendance in schools,09/10/2025,Update
+2.0.0,Week 37 2025,Published,Reasons for absence and attendance,Pupil attendance in schools,25/09/2025,Update
+1.11.0,Week 29 2025,Published,Reasons for absence and attendance,Pupil attendance in schools,07/08/2025,Update
+1.10.0,Week 28 2025,Published,Reasons for absence and attendance,Pupil attendance in schools,24/07/2025,Update
+1.9.0,Week 26 2025,Published,Reasons for absence and attendance,Pupil attendance in schools,10/07/2025,Update
+1.8.0,Week 24 2025,Published,Reasons for absence and attendance,Pupil attendance in schools,26/06/2025,Update
+1.7.0,Week 21 2025,Published,Reasons for absence and attendance,Pupil attendance in schools,12/06/2025,Update
+1.6.0,Week 20 2025,Published,Reasons for absence and attendance,Pupil attendance in schools,29/05/2025,Update
+1.5.0,Week 18 2025,Published,Reasons for absence and attendance,Pupil attendance in schools,15/05/2025,Update
+1.4.0,Week 15 2025,Published,Reasons for absence and attendance,Pupil attendance in schools,01/05/2025,Update
+1.3.0,Week 14 2025,Published,Reasons for absence and attendance,Pupil attendance in schools,17/04/2025,Update
+1.2.0,Week 12 2025,Published,Reasons for absence and attendance,Pupil attendance in schools,03/04/2025,Update
+1.1.0,Week 10 2025,Published,Reasons for absence and attendance,Pupil attendance in schools,20/03/2025,Update
+1.0.0,Week 7 2025,Published,Reasons for absence and attendance,Pupil attendance in schools,06/03/2025,New
+1.0.1,Academic year 2024/43,Published,"Headline Full year - Starts, Achievements, Participation by Level, Levy, Age, Region, Provider type",,08/10/2025,Patch
+1.0.0,Academic year 2024/43,Published,"Headline Full year - Starts, Achievements, Participation by Level, Levy, Age, Region, Provider type",,17/07/2025,New
