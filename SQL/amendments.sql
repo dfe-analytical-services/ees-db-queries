@@ -2,7 +2,9 @@
 
 -- If using for regular reporting:
     -- Update the date range
-    -- Export and manually add flags for major / minor and DISD / not-DISD
+    -- Export and manually add flags for 
+        -- major / minor / discounted (discount any that aren't 'corrections', major corrections must impact national headlines)
+        -- DISD / not-DISD
 
 -- Need to join 3 tables to connect the publication titles to amendments
 WITH version_names AS (
@@ -21,4 +23,4 @@ FROM [dbo].[Update] u
 LEFT JOIN version_names vn ON u.[ReleaseVersionId] = vn.[releaseVersion]
 
 -- Filter to the reporting period used
-WHERE MONTH([On]) > 8 and YEAR([On]) = 2025
+WHERE MONTH([On]) IN (10,11,12) and YEAR([On]) = 2025
